@@ -39,7 +39,7 @@ setup(
         "pandas",
         "numpy",
         "matplotlib",
-        "torch",
+        "torch==1.8",
         "attrs>=21.1.0",
     ],
     tests_requires=["pytest", "pytest-cov"],
